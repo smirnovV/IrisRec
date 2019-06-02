@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: slava
+    password: andromeda
+    url: jdbc:postgresql://localhost:5432/iris_db
+  jpa:
+    database: DEFAULT
+    hibernate.ddl-auto: validate
+    show-sql: true
